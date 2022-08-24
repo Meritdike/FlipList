@@ -5,6 +5,13 @@
     font-family: 'Rubik', sans-serif;
 }
 
+:root {
+    --gray: #E8E8E8;
+    --text-gray: #696969;
+    --black: #1E1E1E;
+    --disabled-bg: #BABABA;
+}
+
 .login-img {
     background-image: url(../img/login-img.png);
     height: 100vh;
@@ -15,4 +22,54 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 30px;
+}
+
+.log-in {
+    height: 100vh;
+    background-color: var(--gray);
+}
+
+.img-text {
+    font-size: 1rem;
+}
+
+.form-width {
+    width: 22rem;
+}
+
+.text-grey {
+    color: var(--text-gray);
+}
+
+.log-in-btn.disabled {
+    background-color: var(--disabled-bg);
+    border: 1px solid var(--disabled-bg);
+}
+
+.log-in-btn {
+    background-color: var(--black);
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid var(--black);
+    transition: 0.25s ease-in-out;
+}
+
+.form-check-input {
+    background-color: transparent !important;
+}
+
+.form-check-input:checked {
+    background-color: var(--black) !important;
+}
+
+.p-input {
+    padding: 0.5rem !important;
+}
+
+
+@media (max-width: 992px) {
+    .img-text {
+        font-size: 0.7rem;
+    }
 }
