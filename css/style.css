@@ -10,6 +10,7 @@
     --text-gray: #696969;
     --black: #1E1E1E;
     --disabled-bg: #BABABA;
+    --golden-yellow: #D3AC0C;
 }
 
 .login-img {
@@ -64,7 +65,16 @@
 }
 
 .p-input {
-    padding: 0.5rem !important;
+    padding: 0.6rem !important;
+}
+
+.show {
+    font-size: 0.8rem !important;
+    color: var(--golden-yellow) !important;
+}
+
+.show:focus-visible {
+    outline: none;
 }
 
 
