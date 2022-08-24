@@ -21,5 +21,4 @@ function togglePassword() {
         password.type = 'password';
         showPassword.textContent = 'Show'
     }
-    console.log ('showing')
 }
