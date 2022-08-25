@@ -46,11 +46,14 @@ body {
 main {
     transform: translateX(0rem);
     transition: all 0.3s ease;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 #sidebar:hover + main {
     /* width: calc(width - 18rem); */
     transform: translateX(15rem);
+    width: 100%;
 }
 
 .fs-12 {
@@ -114,7 +117,7 @@ main {
 }
 
 .data {
-    height: 90vh;
+    height: 86vh;
 }
 
 .box {
