@@ -79,7 +79,7 @@ main {
     display: flex;
     align-items: center;
     /* display: inline-block; */
-    color: var(--white);
+    color: var(--gray);
     transition: all 0.2s ease;
     height: 100%;
     width: 100%;
@@ -125,3 +125,6 @@ main {
     cursor: pointer;
 }
 
+.text-yellow {
+    color: var(--golden-yellow);
+}
