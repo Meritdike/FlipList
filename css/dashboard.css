@@ -142,7 +142,6 @@ main {
     background-position: center;
     width: 2rem;
     height: 2rem;
-    -webkit-text-stroke: 1px;
 }
 
 .dropdown-menu[data-bs-popper] {
@@ -156,4 +155,34 @@ main {
 
 .bi-arrow-down-circle, .bi-plus, .bi-gear, .bi-bell {
     -webkit-text-stroke: 1px;
+}
+
+/* Properties */
+.file-box {
+    margin: 3rem auto 0 auto;
+    width: 95%;
+    height: 40vh;
+    background-image: repeating-linear-gradient(0deg, #999999, #999999 18px, transparent 18px, transparent 31px, #999999 31px), repeating-linear-gradient(90deg, #999999, #999999 18px, transparent 18px, transparent 31px, #999999 31px), repeating-linear-gradient(180deg, #999999, #999999 18px, transparent 18px, transparent 31px, #999999 31px), repeating-linear-gradient(270deg, #999999, #999999 18px, transparent 18px, transparent 31px, #999999 31px);
+    background-size: 2px 100%, 100% 2px, 2px 100% , 100% 2px;
+    background-position: 0 0, 0 0, 100% 0, 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 1.1rem;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.btn-browse {
+    border-top: 3px solid var(--black);
+    border-left: 3px solid var(--black);
+    border-right: 1px solid var(--black);
+    border-bottom: 1px solid var(--black);
+}
+
+.btn-browse:active {
+    border-top: 1px solid var(--black);
+    border-left: 1px solid var(--black);
+    /* border-right: 1px solid var(--black);
+    border-bottom: 1px solid var(--black); */
 }

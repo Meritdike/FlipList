@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <title>Dashboard</title>
+    <title>Properties</title>
 </head>
 <body>
     <nav id="sidebar" class="position-fixed h-100 start-0 top-0" onmouseover="openNav()" onmouseout="closeNav()">
@@ -25,14 +25,14 @@
             <br>
             <ul class="nav_list list-unstyled">
                 <li class="pb-2">
-                    <a href="dashboard.html" class="text-decoration-none active">
+                    <a href="dashboard.html" class="text-decoration-none">
                         <i class="bi bi-columns-gap fs-5 pe-4"></i>
                         <span class="nav_list">Dashboard</span>
                     </a>
                     <!-- <span class="tooltip">Dashboard</span> -->
                 </li>
                 <li class="pb-2">
-                    <a href="property.html" class="text-decoration-none">
+                    <a href="#" class="text-decoration-none active">
                         <i class="fa-solid fa-city pe-4 fs-6"></i>
                         <span class="nav_list">Properties</span>
                     </a>
@@ -82,7 +82,7 @@
         <header>
             <nav class="navbar navbar-expand-lg bg-light fw-semibold">
                 <div class="container">
-                  <a class="navbar-brand" href="#">Dashboard</a>
+                  <a class="navbar-brand link-secondary" href="#"><i class="bi bi-arrow-left me-2"></i> Properties<i class="bi bi-chevron-right mx-2"></i> <span class="fw-semibold text-dark">Import Data</span></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -115,36 +115,13 @@
                 </div>
               </nav>
         </header>
-        <div aria-live="polite" aria-atomic="true" class="position-relative">
-            <div class="toast-container top-0 end-0 p-3">
-                <div class="toast border-0" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="true" data-bs-delay="3000" data-bs-animation="true">
-                    <div class="toast-body px-4 py-3">
-                        <h5 class="me-auto text-dark">Hello James</h5>
-                        <p class="text-secondary">Welcome to FlipList. We recommend that you <a href="#" class="text-yellow">Change your Password</a> to improve the security of your data.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
         <section>
             <div class="container">
-                <div class="d-flex justify-content-center align-items-center flex-column data">
-                    <h2 class="fw-semibold">No Data</h2>
-                    <p class="text-secondary text-center">Use the buttons below to either import existing data <br> or create a new property.</p>
-                    <div class="d-flex">
-                        <a href="property.html" class="text-decoration-none link-dark">
-                            <div class="box me-4 d-flex justify-content-center align-items-center flex-column">
-                                <i class="bi bi-arrow-down-circle"></i>
-                                <p class="mb-0 fw-semibold">Import</p>
-                                <p class="text-secondary mb-0 fs-12">xlxs or csv</p>
-                            </div>
-                        </a>
-                        <a href="#" class="text-decoration-none link-dark">
-                            <div class="box d-flex justify-content-center align-items-center flex-column">
-                                <i class="bi bi-plus fs-5"></i>
-                                <p class="mb-0 fw-semibold">Create</p>
-                                <p class="text-secondary mb-0 fs-12">New Property</p>
-                            </div>
-                        </a>
+                <div class="file-box text-secondary">
+                    <div class="d-flex justify-content-center align-items-center flex-column pointer h-100">
+                        <i class="bi bi-plus display-5 text-secondary"></i>
+                        <p class="text-center fs-12">Drag and drop files here <br> or</p>
+                        <button type="button" class="text-dark rounded-2 px-2 py-1 mb-3 bg-transparent fs-12 btn-browse">Browse Your Computer</button>
                     </div>
                 </div>
             </div>
