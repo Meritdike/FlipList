@@ -41,6 +41,7 @@ main {
     transition: margin-left 0.3s;
     max-width: 100%;
     overflow: hidden;
+    height: 100%;
 }
 
 .fs-12 {
@@ -186,9 +187,13 @@ main {
 }
 
 /* Property Import */
+#prop-import {
+    height: 100%;
+}
+
 .mycontainer {
     width: fit-content;
-    min-height: 100vh;
+    height: 100%;
 }
 
 #prop-nav {
