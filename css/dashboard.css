@@ -40,7 +40,7 @@ main {
     transform: translateX(0rem);
     transition: margin-left 0.3s;
     max-width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .fs-12 {
@@ -183,6 +183,35 @@ main {
 .btn-browse:active {
     border-top: 1px solid var(--black);
     border-left: 1px solid var(--black);
-    /* border-right: 1px solid var(--black);
-    border-bottom: 1px solid var(--black); */
 }
+
+/* Property Import */
+.mycontainer {
+    width: fit-content;
+    min-height: 100vh;
+}
+
+#prop-nav {
+    padding-left: 7rem;
+    transition: padding-left 0.3s;
+}
+
+.bg-gray {
+    color: var(--gray);
+}
+
+.span-border {
+    border-top: 4px solid var(--gray);
+}
+
+.icon:hover {
+    background-color: var(--gray);
+}
+
+.icon:active {
+    background-color: var(--disabled-bg);
+}
+
+/* .icon:active .bi-plus::before {
+    color: var(--white);
+} */
