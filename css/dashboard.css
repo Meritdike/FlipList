@@ -142,6 +142,7 @@ main {
     background-position: center;
     width: 2rem;
     height: 2rem;
+    -webkit-text-stroke: 1px;
 }
 
 .dropdown-menu[data-bs-popper] {
@@ -151,4 +152,8 @@ main {
 
 .dropdown-item.active, .dropdown-item:active {
     background-color: var(--black) !important;
+}
+
+.bi-arrow-down-circle, .bi-plus, .bi-gear, .bi-bell {
+    -webkit-text-stroke: 1px;
 }
