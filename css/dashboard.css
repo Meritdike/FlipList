@@ -47,6 +47,10 @@ main {
     font-size: 12px;
 }
 
+.logo-text {
+    width: 7rem;
+}
+
 .logo-icon {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
