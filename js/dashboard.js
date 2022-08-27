@@ -20,3 +20,14 @@ function openNav() {
     document.getElementById("prop-nav").style.paddingLeft = "7rem";
     document.getElementById("btn-black").style.width = "87%";
   }
+
+
+const toastTrigger = document.getElementById('showMsgBtn')
+const toastLiveExample = document.getElementById('showMsg')
+if (toastTrigger) {
+  toastTrigger.addEventListener('click', () => {
+    const toast = new bootstrap.Toast(toastLiveExample)
+
+    toast.show()
+  })
+}

@@ -274,3 +274,11 @@ table .pointer.active {
 .form-check-input:checked {
     background-color: var(--black) !important;
 }
+
+.h-3 {
+    height: 5rem;
+}
+
+.map-saved-bg {
+    background-color: #B1E5E5 !important;
+}
