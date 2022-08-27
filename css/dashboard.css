@@ -262,11 +262,15 @@ table .pointer.active {
     background-color: var(--golden-yellow) !important;
 }
 
-select {
+.right select {
     background-image: none !important;
 }
 
-select.plus {
+.right select.plus {
     background-image: url(../img/plus\ .svg) !important;
     background-size: 1.4rem;
+}
+
+.form-check-input:checked {
+    background-color: var(--black) !important;
 }

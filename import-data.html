@@ -181,8 +181,8 @@
                             <p class="fs-12 mb-0">Specify list, tags and map system colums to file columns to be imported</p>
                         </div>
                     </div>
-                    <div class="row justify-content-between mt-3">
-                        <div class="col-5">
+                    <div class="row mt-3">
+                        <div class="col-5 right">
                             <svg xmlns="http://www.w3.org/2000/svg" style="display: none;" class="bi bi-exclamation-triangle">
                                 <symbol id="exclamation-triangle" class="alert-color" viewBox="0 0 16 16">
                                     <path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/>
@@ -206,25 +206,75 @@
                                 <option value="3">Three</option>
                             </select>
                             <select class="form-select shadow-none border-0 mb-3" aria-label="Default select example">
-                                <option value selected disabled>Open this select menu</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
+                                <option value selected disabled>Select List or Create New List</option>
+                                <option value disabled>Recent Lists</option>
+                                <option value="1">Tampa Q3 2022</option>
+                                <option value="2">Tampa Q2 2022</option>
+                                <option value="3">Nasville Q3 2022</option>
+                                <option value="3">Charlotte Q3 2022</option>
                             </select>
+                            <div class="form-check text-secondary mb-3">
+                                <input class="form-check-input bg-transparent border-dark text-dark shadow-none" type="checkbox" value="" id="invalidCheck2" required>
+                                <label class="form-check-label" for="invalidCheck2">
+                                 Set as default Market and List
+                                </label>
+                            </div>
                             <select class="form-select shadow-none border-0 mb-3 plus" aria-label="Default select example">
-                                <option value selected disabled>Open this select menu</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
+                                <option value selected disabled>Select Tags or Add New Tags</option>
+                                <option value disabled>Available Tags</option>
+                                <option value="1">Tax Delinquent</option>
+                                <option value="2">Inherited</option>
+                                <option value="3">Pre-foreclosure</option>
+                                <option value="3">Divorce</option>
                             </select>
                             <select class="form-select shadow-none border-0 mb-3" aria-label="Default select example">
-                                <option value selected disabled>Open this select menu</option>
+                                <option value selected disabled>Select Status or Create New Status</option>
                                 <option value="1">One</option>
                                 <option value="2">Two</option>
                                 <option value="3">Three</option>
                             </select>
                         </div>
-                        <div class="col-6"></div>
+                        <div class="col-7">
+                            <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">System Columns</th>
+                                    <th scope="col"><i class="bi bi-arrow-right"></i></th>
+                                    <th scope="col">Source Columns</th>
+                                  </tr>
+                                </thead>
+                                <tbody class="table-group-divider">
+                                  <tr class="bg-white">
+                                    <div>
+                                        <td class="">First Name</td>
+                                        <td class=""><i class="bi bi-arrow-right"></i></td>
+                                        <td>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Open this select menu</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </td>
+                                    </div>
+                                  </tr>
+                                  <tr class="bg-white">
+                                    <div>
+                                        <td class="">First Name</td>
+                                        <td class=""><i class="bi bi-arrow-right"></i></td>
+                                        <td>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Open this select menu</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </td>
+                                    </div>
+                                  </tr>
+                                </tbody>
+                              </table>
+                        </div>
                     </div>
                 </div>
             </div>
