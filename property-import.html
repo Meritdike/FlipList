@@ -116,52 +116,69 @@
               </nav>
         </header>
         <section id="prop-import">
-            <div class="mycontainer bg-light span-border" id="prop-nav">
-                <div class="prop-heading d-flex justify-content-between align-items-center py-3">
-                    <div class="text ps-3 pe-1">
-                        <p class="fw-semibold mb-0 text-dark">Uploaded Files</p>
-                        <p class="fs-12 mb-0">Select file to map selected columns.</p>
-                    </div>
-                    <div class="icon pointer mx-3">
-                        <i class="bi bi-plus fs-5 text-dark px-1"></i>
+            <div class="row h-100">
+                <div class="col">
+                    <div class="mycontainer bg-light span-border" id="prop-nav">
+                        <div class="prop-heading d-flex justify-content-between align-items-center py-3">
+                            <div class="text ps-3 pe-1">
+                                <p class="fw-semibold mb-0 text-dark">Uploaded Files</p>
+                                <p class="fs-12 mb-0">Select file to map selected columns.</p>
+                            </div>
+                            <div class="icon pointer mx-3">
+                                <i class="bi bi-plus fs-5 text-dark px-1"></i>
+                            </div>
+                        </div>
+                        <table class="bg-light span-border">
+                            <tr>
+                                <td valign="top">
+                                    <div class="ps-1">
+                                        <div class="pointer py-2 pe-5 d-flex mb-1">
+                                            <i class="bi bi-dot me-2 fs-4"></i>
+                                            <div>
+                                                <p class="mb-0 text-dark">OPC-ML-2795 FL Counties Code <br> Violations (FL) - 6000</p>
+                                                <p class="fs-12 mb-0">Status: Uploaded</p>
+                                                <p class="fs-12 mb-0">Records: 6,000</p>
+                                            </div>
+                                        </div>
+                                        <div class="pointer py-2 pe-5 d-flex mb-1">
+                                            <i class="bi bi-dot me-2 fs-4"></i>
+                                            <div>
+                                                <p class="mb-0 text-dark">OPC-ML-2795 FL Counties <br> Distressed - 10000</p>
+                                                <p class="fs-12 mb-0">Status: Uploading file (45%)</p>
+                                            </div>
+                                        </div>
+                                        <div class="pointer py-2 pe-5 d-flex mb-1">
+                                            <i class="bi bi-dot me-2 fs-4"></i>
+                                            <div>
+                                                <p class="mb-0 text-dark">OPC-ML-2795 FL Counties <br> Evictions - 100</p>
+                                                <p class="fs-12 mb-0">Status: Uploading file (25%)</p>
+                                            </div>
+                                        </div>
+                                        <div class="pointer py-2 pe-5 d-flex mb-1">
+                                            <i class="bi bi-dot me-2 fs-4"></i>
+                                            <div>
+                                                <p class="mb-0 text-dark">OPC-ML-2795 FL Counties <br>  Pre-probate - 10000</p>
+                                                <p class="fs-12 mb-0">Status: Uploading file (5%)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="bottom">
+                                    <button class="py-2 rounded-3" id="btn-black">Import All</button>
+                                </td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
-                <table class="bg-light span-border">
-                    <tr>
-                        <td valign="top">
-                            <div class="ps-1">
-                                <div class="pointer py-2 pe-5 d-flex mb-2">
-                                    <i class="bi bi-dot me-2 fs-4"></i>
-                                    <div>
-                                        <p class="mb-0 text-dark">OPC-ML-2795 FL Counties Code <br> Violations (FL) - 6000</p>
-                                        <p class="fs-12 mb-0">Status: Uploaded</p>
-                                        <p class="fs-12 mb-0">Records: 6,000</p>
-                                    </div>
-                                </div>
-                                <div class="pointer pb-2 pe-5">
-                                    <p class="mb-0 text-dark">OPC-ML-2795 FL Counties Code <br> Violations (FL) - 6000</p>
-                                    <p class="fs-12 mb-0">Status: Uploaded</p>
-                                    <p class="fs-12 mb-0">Records: 6,000</p>
-                                </div>
-                                <div class="pointer pb-2 pe-5">
-                                    <p class="mb-0 text-dark">OPC-ML-2795 FL Counties Code <br> Violations (FL) - 6000</p>
-                                    <p class="fs-12 mb-0">Status: Uploaded</p>
-                                    <p class="fs-12 mb-0">Records: 6,000</p>
-                                </div>
-                                <div class="pointer pb-2 pe-5">
-                                    <p class="mb-0 text-dark">OPC-ML-2795 FL Counties Code <br> Violations (FL) - 6000</p>
-                                    <p class="fs-12 mb-0">Status: Uploaded</p>
-                                    <p class="fs-12 mb-0">Records: 6,000</p>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td valign="bottom">
-                            <button class="py-2 rounded-3" id="btn-black">Import All</button>
-                        </td>
-                    </tr>
-                </table>
+                <div class="col">
+                    <div class="import-content d-flex justify-content-start align-items-center h-75">
+                        <p class="text-secondary text-center fs-6">
+                            Please select a file from the “Uploaded Files” <br> panel to begin the importation process
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>

@@ -192,7 +192,7 @@ main {
 }
 
 .mycontainer {
-    width: 30%;
+    width: 60%;
     height: 100%;
 }
 
@@ -237,7 +237,12 @@ table {
 table .pointer:hover {
     background-color: var(--gray);
 }
+
 table .pointer:active {
     background-color: var(--gray);
     border-right: 4px solid var(--golden-yellow);
+}
+
+.import-content {
+    width: 70%;
 }
