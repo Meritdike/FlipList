@@ -192,7 +192,7 @@ main {
 }
 
 .mycontainer {
-    width: fit-content;
+    width: 30%;
     height: 100%;
 }
 
@@ -217,6 +217,27 @@ main {
     background-color: var(--disabled-bg);
 }
 
-/* .icon:active .bi-plus::before {
+table {
+    height: 78%;
+    width: 100%;
+}
+
+#btn-black {
+    background-color: var(--black);
     color: var(--white);
-} */
+    width: 87%;
+    transition: width 0.3s;
+}
+
+.bi-dot {
+    color: #0A71EB;
+    font-size: 1.3rem;
+}
+
+table .pointer:hover {
+    background-color: var(--gray);
+}
+table .pointer:active {
+    background-color: var(--gray);
+    border-right: 4px solid var(--golden-yellow);
+}
