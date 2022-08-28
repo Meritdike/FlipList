@@ -154,7 +154,7 @@ main {
     background-color: var(--black) !important;
 }
 
-.bi-arrow-down-circle, .bi-plus, .bi-gear, .bi-bell {
+.bi-arrow-down-circle, .bi-plus, .bi-gear, .bi-bell, .bi-arrow-right {
     -webkit-text-stroke: 1px;
 }
 
