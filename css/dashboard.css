@@ -282,3 +282,11 @@ table .pointer.active {
 .map-saved-bg {
     background-color: #B1E5E5 !important;
 }
+
+.text-gray {
+    color: #DEDEDE;
+}
+
+.column-bg {
+    background-color: #FBFBFB;
+}
