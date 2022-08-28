@@ -17,7 +17,7 @@
 
 body { 
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
     max-width: 100%;
     overflow: hidden;
     background-color: var(--gray) !important;
@@ -217,8 +217,8 @@ main {
     background-color: var(--disabled-bg);
 }
 
-table {
-    height: 78%;
+table.span-border {
+    height: 77vh;
     width: 100%;
 }
 
