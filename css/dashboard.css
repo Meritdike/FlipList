@@ -19,7 +19,7 @@ body {
     position: relative;
     min-height: 100vh;
     max-width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: var(--gray) !important;
 }
 
@@ -36,8 +36,7 @@ body {
     overflow-x: hidden;
 }
 
-main {
-    transform: translateX(0rem);
+#main-body {
     transition: margin-left 0.3s;
     max-width: 100%;
     overflow: hidden;
@@ -189,6 +188,7 @@ main {
 /* Property Import */
 #prop-import {
     height: 100%;
+    margin-top: 4.7rem;
 }
 
 .mycontainer {
@@ -252,7 +252,7 @@ table .pointer.active {
 }
 
 .alert-warning {
-    height: 3.5rem;
+    height: 3.8rem;
     background-color: rgba(235, 131, 10, 0.15) !important;
     color: var(--golden-yellow) !important;
     border: 1px solid rgba(235, 131, 10, 0.15) !important;
@@ -289,4 +289,19 @@ table .pointer.active {
 
 .column-bg {
     background-color: #FBFBFB;
+}
+
+.fixed-top {
+    z-index: 0 !important;
+}
+
+#mt-6 {
+    margin-top: 4.7rem;
+}
+
+#fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
