@@ -259,6 +259,10 @@ table .pointer.active {
     border: 1px solid rgba(235, 131, 10, 0.15) !important;
 }
 
+.alert {
+    position: static !important;
+}
+
 .alert-color {
     background-color: var(--golden-yellow) !important;
 }
