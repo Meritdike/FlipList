@@ -110,8 +110,8 @@ body {
 }
 
 .box {
-    width: 5.9rem;
-    height: 5.9rem;
+    width: 7rem;
+    height: 6.5rem;
     background-color: var(--white);
     border-radius: 10px;
     border: 1px solid #DEDEDE;
