@@ -32,7 +32,7 @@ body {
     padding-right: 12px;
     padding-left: 12px;
     transition: 0.3s;
-    z-index: 1;
+    z-index: 2;
     overflow-x: hidden;
 }
 
@@ -219,7 +219,7 @@ body {
 }
 
 table.span-border {
-    height: 77vh;
+    height: 100vh;
     width: 100%;
 }
 
@@ -309,4 +309,25 @@ table .pointer.active {
     top: 0;
     right: 0;
     left: 0;
+}
+
+.td-p {
+    padding-bottom: 10rem;
+}
+
+#prop-import .col-4.second-sidenav {
+    transition: width 0.3s;
+}
+
+.footer {
+    background-color: var(--gray);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.bg-blackBtn {
+    background-color: var(--black);
 }

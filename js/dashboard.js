@@ -14,6 +14,7 @@ function openNav() {
     document.getElementById("prop-import").style.marginTop = "0rem";
     document.getElementById("btn-black").style.width = "95%";
     document.getElementById("fixed-top").style.position = "static";
+    document.querySelector("#prop-import .col-4.second-sidenav").style.width = "27.5%";
   }
   
   function closeNav() {
@@ -23,6 +24,7 @@ function openNav() {
     document.getElementById("prop-import").style.marginTop = "4.7rem";
     document.getElementById("btn-black").style.width = "87%";
     document.getElementById("fixed-top").style.position = "fixed";
+    document.querySelector("#prop-import .col-4.second-sidenav").style.width = "33.33%";
   }
 
 
