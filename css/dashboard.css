@@ -336,3 +336,12 @@ table .pointer.active {
 .border-ash {
     border-color: var(--disabled-bg) !important;
 }
+
+.user-profile {
+    height: 100vh;
+}
+
+#prop-import .user-profile .nav-item a.active {
+    font-weight: bold;
+    border-bottom: 3px solid var(--golden-yellow);
+}
